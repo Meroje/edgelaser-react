@@ -1,0 +1,21 @@
+{
+    "name": "meroje/edgelaser-react",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Jerome Foray",
+            "email": "meroje.f@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "clue/datagram": "~0.5"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
